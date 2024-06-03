@@ -152,13 +152,14 @@
    }
 
    .header {
-     padding-top: 32px;
-     padding-bottom: 21px;
+     padding-top: 15px;
+     padding-bottom: 15px;
    }
 
    .header__logo {
      max-width: 25%;
      margin-bottom: 0;
+     width: 27px;
    }
 
    .burger__line {
@@ -169,15 +170,15 @@
    }
 
    .burger__line:nth-child(1) {
-     top: -1px;
+     top: 5px;
    }
 
    .burger__line:nth-child(2) {
-     top: 24%;
+     top: 12px;
    }
 
    .burger__line:nth-child(3) {
-     bottom: 12px;
+     bottom: 6px;
    }
 
    .header__wrapper {
@@ -243,7 +244,12 @@
    .teachers {
      padding-top: 47px;
      padding-bottom: 48px;
+     justify-content: center;
    }
+   
+    .teachers__item {
+      max-width: 400px;
+    }
 
    .teachers__title {
      padding-bottom: 27px;

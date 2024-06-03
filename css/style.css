@@ -92,12 +92,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
   background-color: var(--color-blue);
 }
 
+.header__wrapper  {
+  align-items: center;
+}
+
 .logo__img {
-  width: 70px;
+  width: 50px;
 }
 
 .burger {
   display: none;
+  align-self: center;
 }
 
 .header__nav {
